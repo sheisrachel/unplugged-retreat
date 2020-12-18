@@ -50,7 +50,55 @@ textarea {
    Author's custom styles
    ========================================================================== */
     
-/* BASE HEADER STYLES */
+/******************** GENERAL STYLES ********************/
+ 
+html {
+	font-size: 16px;
+}
+ 
+body {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+ 
+ul, 
+ol {
+  list-style-type: none;
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+ 
+p {
+  font-size: .875em;
+  line-height: 1.285;
+}
+  
+address {
+ font-style: normal;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+/******************** BASE HEADER STYLES ********************/
 
 header,
 footer {
@@ -92,7 +140,7 @@ header nav ul {
   width: 100%;
 }
 
-/* BASE FOOTER STYLES */
+/******************** BASE FOOTER STYLES ********************/
 
 footer {
   flex-direction: column;
@@ -127,7 +175,7 @@ footer .copyright {
   margin: 20px 0;
 }
 
-/* BASE MAIN STYLES */
+/******************** BASE MAIN STYLES ********************/
 
 .hero-area {
   display: flex;
@@ -183,7 +231,7 @@ aside {
   margin: 20px 0;
 }
 
-/* ABOUT PAGE */
+/******************** ABOUT PAGE ********************/
 
 .mission {
   display: flex;
@@ -203,7 +251,7 @@ aside {
   margin: 0;
 }
 
-/* FAQ PAGE */
+/******************** FAQ PAGE ********************/
 
 .faq {
   display: flex;
@@ -229,7 +277,7 @@ aside {
 }
 
 /* ==========================================================================
-   Helper classes
+   HELPER CLASSES
    ========================================================================== */
 
 .hidden,
@@ -280,14 +328,14 @@ aside {
 
 @media only screen and (min-width: 768px) {
   
-  /* BASE STYLES */
+  /******************** BASE STYLES ********************/
 
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
   }
 
-  /* HEADER */
+  /******************** HEADER STYLES ********************/
 
   header {
     justify-content: space-around;
@@ -311,7 +359,7 @@ aside {
       display: none;
   }
 
-  /* MAIN */
+ /******************** MAIN STYLES ********************/
 
   aside .content-wrapper {
       margin: 50px 0;
@@ -347,7 +395,7 @@ aside {
       width: 49%;   
   }
 
-  /* FOOTER */
+ /******************** FOOTER STYLES ********************/
 
   footer .content-wrapper {
     width: 65%;
@@ -368,7 +416,7 @@ aside {
       width: 100%;
   }
 
-  /* ABOUT PAGE */
+  /******************** ABOUT PAGE ********************/
   
   .mission-content {
     display: flex;
@@ -391,7 +439,7 @@ aside {
     align-items: flex-start;
   }
 
-  /* FAQ PAGE */
+  /******************** FAQ PAGE ********************/
   
   .faq .content-wrapper {
     justify-content: space-between;
@@ -410,13 +458,13 @@ aside {
 @media only screen and (min-width:1200px) {
   /*Desktop styles here*/
 
-  /* BASE STYLES */
+  /******************** BASE STYLES ********************/
 
   .content-wrapper {
     max-width: 960px;
   }
 
-  /* MAIN */
+  /******************** MAIN STYLES ********************/
 
   .hero-area h1 {
     width: 60%;
@@ -443,14 +491,14 @@ aside {
     width: 42%;
   }
 
-  /* ABOUT PAGE */
+  /******************** ABOUT PAGE ********************/
 
   .mission h2,
   .contact-section .content-wrapper h2 {
       width: 95%;
   }
 
-  /* FAQ PAGE */
+  /******************** FAQ PAGE ********************/
 
   .faq h2 {
     width: 100%;
