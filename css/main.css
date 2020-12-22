@@ -46,6 +46,7 @@ textarea {
   resize: vertical;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -66,6 +67,8 @@ body {
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -77,6 +80,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
  
 h3, 
@@ -94,14 +98,14 @@ p {
 
 img {
   width: 100%;
- }
+}
   
  figure {
   margin: 0;
- }
+}
   
 address {
- font-style: normal;
+  font-style: normal;
 }
 
 .content-wrapper {
@@ -195,9 +199,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -281,7 +293,7 @@ input[type=button] {
   margin: 30px 0;
 }
 
-.features .features-item-description {
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -530,6 +542,10 @@ input[type=button] {
     width: 62%;
   }
 
+  .features i {
+    margin-bottom: 30px;
+  }
+
   /* REVIEWS */
 
   .reviews article {
@@ -576,6 +592,11 @@ input[type=button] {
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
