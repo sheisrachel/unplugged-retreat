@@ -125,11 +125,11 @@ header {
 }
 
 header .content-wrapper {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0;
 }
 
 header figure {
@@ -194,7 +194,7 @@ footer .social-icons {
   align-items: center;
 }
 
-footer .social p {
+footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -288,6 +288,11 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   text-align: center;
   margin: 0;
@@ -322,18 +327,6 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-.content-section {
-  background-color: #2a423a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.contact-content p {
-  margin: 0;
-}
-
 .map figure {
   width: 100%;
   height: 0; 
@@ -348,6 +341,18 @@ input[type=button] {
   position: absolute; 
   top: 0; 
   left: 0; 
+}
+
+.content-section {
+  background-color: #2a423a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-content p {
+  margin: 0;
 }
 
 /******************** FAQ PAGE ********************/
@@ -503,7 +508,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {        
-    width: 35%;
+    width: 40%;
     margin: 0;
   }
 
@@ -615,7 +620,7 @@ input[type=button] {
   }
     
   .faq-content {
-    flex-basis: 40%;
+    flex-basis: 45%;
   }
  
   .faq h2 {
@@ -674,7 +679,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 40%;
+    width: 30%;
   }
 
   /* FEATURES */
