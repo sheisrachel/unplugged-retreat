@@ -353,6 +353,7 @@ input[type=button] {
   position: absolute; 
   top: 0; 
   left: 0; 
+  border: 0;
 }
 
 .contact-section {
@@ -363,8 +364,17 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.contact-content span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  margin: 20px 0;
+}
+
 .contact-content p {
   margin: 0;
+  font-size: .875em;
+  line-height: 1.285;
 }
 
 /******************** FAQ PAGE ********************/
